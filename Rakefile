@@ -9,6 +9,6 @@ end
 desc "deploy GitHub:Pages"
 task :deploy do
   sh "git checkout master"
-  sh "git push -f git@github.com:hal_sk/orezeni.github.com.git master"
+  sh "git push -f git@github.com:halsk/orezeni.github.com.git master"
 end
 
